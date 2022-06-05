@@ -1,0 +1,13 @@
+diff --git a/catppuccin.user.css b/catppuccin.user.css
+index b45be0d..fd9face 100644
+--- a/catppuccin.user.css
++++ b/catppuccin.user.css
+@@ -696,4 +696,8 @@
+         border-color: transparent;
+     }
+ 
++    .ContributionCalendar-day,
++    .ContributionCalendar-day[data-level="0"] {
++        fill: $mantle;
++    }
+ }
